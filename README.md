@@ -9,7 +9,8 @@ ovitoのメモを書いてます。
 ## ovito-python の準備
 
 事前にminiconda3をいれておくこと。
-[miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+
+- [miniconda3](https://docs.conda.io/en/latest/miniconda.html)
 
 ```
 $ conda create -n ovito
