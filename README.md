@@ -1,11 +1,9 @@
 # ovito-tips
-ovitoのメモ
+ovitoのメモを書いてます。
 
-[ovito の HP](https://www.ovito.org/)
-
-[ovito のマニュアル](https://www.ovito.org/docs/current/)
-
-[ovito-python のマニュアル](https://www.ovito.org/docs/current/python/)
+- [ovito の HP](https://www.ovito.org/)
+- [ovito のマニュアル](https://www.ovito.org/docs/current/)
+- [ovito-python のマニュアル](https://www.ovito.org/docs/current/python/)
 
 
 ## ovito-python の準備
