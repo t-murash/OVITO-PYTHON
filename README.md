@@ -8,11 +8,14 @@ ovitoのメモを書いてます。
 
 ## ovito-python の準備
 
-事前にminiconda3をいれておくこと。
+事前に Miniconda3 をいれておく。
 
-- [miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+- [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
 
 ```
 $ conda create -n ovito
 $ conda activate ovito
 ```
+
+ovito を使う場合は毎回 `conda activate ovito` を実行する。
+（他のものと混ぜると
