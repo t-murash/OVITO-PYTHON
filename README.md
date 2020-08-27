@@ -17,5 +17,4 @@ $ conda create -n ovito
 $ conda activate ovito
 ```
 
-ovito を使う場合は毎回 `conda activate ovito` を実行する。
-（他のものと混ぜると
+ovito を使う際は毎回必ず `conda activate ovito` を実行する。
