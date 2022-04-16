@@ -22,3 +22,6 @@ from ovito.io import export_file
 outfilename="N100M100.out.data"
 export_file(pipeline,outfilename,"lammps/data",atom_style="bond")
 ```
+
+## 詳細が知りたい人は
+- [ovito.io](https://www.ovito.org/docs/current/python/modules/ovito_io.html)
