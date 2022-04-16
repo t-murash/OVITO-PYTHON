@@ -15,7 +15,7 @@ $ python color.py
 ## color.py の簡単な説明
 ### 分子番号の取得
 ```
-omol=data.particles['Molecule Identifier']
+mol=data.particles['Molecule Identifier']
 import numpy as np
 num_particles=mol.size
 mol_max=np.max(mol)
