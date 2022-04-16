@@ -17,7 +17,7 @@ $ conda create -n ovito
 $ conda activate ovito
 ```
 
-ovito を使う際は毎回必ず `conda activate ovito` を実行すること。
+**(注意)** ovito を使う際は毎回必ず `conda activate ovito` を実行すること。
 
 ovitoのpythonモジュールをインストール。
 ```
