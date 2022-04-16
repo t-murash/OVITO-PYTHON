@@ -17,8 +17,10 @@ $ conda create -n ovito
 $ conda activate ovito
 ```
 
-ovito を使う際は毎回必ず `conda activate ovito` を実行する。
+ovito を使う際は毎回必ず `conda activate ovito` を実行すること。
 
+ovitoのpythonモジュールをインストール。
 ```
+$ conda activate ovito
 $ conda install --strict-channel-priority -c https://conda.ovito.org -c conda-forge ovito
 ```
