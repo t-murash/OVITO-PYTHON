@@ -1,4 +1,4 @@
-# ovito-tips
+# OVITO-Tips
 ovitoのメモを書いてます。
 
 - [ovito の HP](https://www.ovito.org/)
