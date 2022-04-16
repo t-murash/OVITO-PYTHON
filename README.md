@@ -1,5 +1,5 @@
 # OVITO-Tips
-ovitoのpythonモジュールについてのメモを書きます。
+ovito の python モジュール `ovito-python` についてのメモ
 
 ## ovito 関連のリンク
 
@@ -21,8 +21,9 @@ $ conda activate ovito
 
 **(注意)** ovito を使う際は毎回必ず `conda activate ovito` を実行すること。
 
-ovitoのpythonモジュールをインストール。
+ovito の pythonモジュールをインストール。
 ```
 $ conda activate ovito
 $ conda install --strict-channel-priority -c https://conda.ovito.org -c conda-forge ovito
 ```
+**(注意)** GUI版 ovito もインストールされるが、Pro版のため、試用期限が過ぎるとGUI版 ovito は使えなくなる。
