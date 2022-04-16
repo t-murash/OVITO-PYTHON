@@ -27,3 +27,11 @@ $ conda activate ovito
 $ conda install --strict-channel-priority -c https://conda.ovito.org -c conda-forge ovito
 ```
 **(注意)** GUI版 ovito もインストールされるが、Pro版のため、試用期限が過ぎるとGUI版 ovito は使えなくなる。
+
+## ovito-python のアップデート
+ovito をアップデートしたくなったら
+```
+$ conda activate ovito
+$ conda update conda
+$ conda update ovito -c conda-forge
+```
