@@ -15,23 +15,18 @@ ovito の python モジュール `ovito-python` についてのメモ
 - [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
 
 ```
-$ conda create -n ovito
-$ conda activate ovito
+$ conda create -n ovito-python
+$ conda activate ovito-python
 ```
 
-**(注意)** ovito を使う際は毎回必ず `conda activate ovito` を実行すること。
+**(注意)** ovito を使う際は毎回必ず `conda activate ovito-python` を実行すること。
 
 ovito の pythonモジュールをインストール。
 ```
-$ conda activate ovito
+$ conda activate ovito-python
 $ conda install --strict-channel-priority -c https://conda.ovito.org -c conda-forge ovito
 ```
 **(注意)** GUI版 ovito もインストールされるが、Pro版のため、試用期限が過ぎるとGUI版 ovito は使えなくなる。
 
-## ovito-python のアップデート
-ovito をアップデートしたくなったら
-```
-$ conda activate ovito
-$ conda update conda
-$ conda update ovito -c conda-forge
-```
+# 内容
+1. [File/IO 01FileIO](./01FileIO)
