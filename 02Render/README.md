@@ -9,7 +9,8 @@ $ conda activate ovito-python
 $ python render.py
 ```
 
-## ファイル読み込み
+## render.py の簡単な説明
+### ファイル読み込み
 ```
 from ovito.io import import_file
 filename="N100M100.data"
@@ -19,7 +20,7 @@ pipeline.add_to_scene()
 ```
 data ファイルを読み込み後の `pipeline.add_to_scene()` が大事。
 
-## 見栄えの調整
+### 見栄えの調整
 ```
 from ovito.vis import ParticlesVis
 particle_vis=pipeline.source.data.particles.vis
@@ -40,7 +41,7 @@ tripod.offset_y = 0.02
 ```
 粒子半径、ボンド（シリンダ）幅、ユニットセルの色、座標軸表示の設定
 
-## PNG ファイル出力
+### PNG ファイル出力
 ```
 import math
 from ovito.vis import Viewport
@@ -49,3 +50,8 @@ vp.zoom_all()
 vp.overlays.append(tripod)
 vp.render_image(size=(1000,1000),filename="figure.png",background=(0,0,0))
 ```
+
+## 詳細は
+- [ovito.data](https://www.ovito.org/docs/current/python/modules/ovito_data.html)
+- [ovito.pipeline](https://www.ovito.org/docs/current/python/modules/ovito_pipeline.html)
+- [ovito.vis](https://www.ovito.org/docs/current/python/modules/ovito_vis.html)
