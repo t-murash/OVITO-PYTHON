@@ -1,5 +1,7 @@
 # OVITO-Tips
-ovitoのメモを書いてます。
+ovitoのpythonモジュールについてのメモを書きます。
+
+## ovito 関連のリンク
 
 - [ovito の HP](https://www.ovito.org/)
 - [ovito のマニュアル](https://www.ovito.org/docs/current/)
