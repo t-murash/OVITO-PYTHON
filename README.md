@@ -4,7 +4,7 @@ ovito の python モジュール `ovito-python` についてのメモ
 ## ovito 関連のリンク
 
 - [ovito の HP](https://www.ovito.org/)
-- [ovito のマニュアル](https://www.ovito.org/docs/current/)
+- [ovito (GUI版) のマニュアル](https://www.ovito.org/docs/current/)
 - [ovito-python のマニュアル](https://www.ovito.org/docs/current/python/)
 
 
