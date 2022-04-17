@@ -60,7 +60,7 @@ def modify(frame,data):
 ```
 
 ### Unwrap
-Unwrapを実施するための Modifier を使う
+Modifier (`UnwrapTrajectoriesModifier`) を使って Unwrap を実施する。
 ```
 from ovito.modifiers import UnwrapTrajectoriesModifier
 pipeline.modifiers.append(UnwrapTrajectoriesModifier())
