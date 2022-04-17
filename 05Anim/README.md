@@ -16,11 +16,11 @@ $ bash anim.sh
 ## 実行結果
 <img src=https://github.com/t-murash/OVITO-Tips/blob/master/05Anim/movie.gif width=400px>
 
-## anim.py の簡単な説明
-trj.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
+## の簡単な説明
+N100M100.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
 
 ## in.anim の簡単な説明
-10ステップ毎にdataファイルを出力する
+10ステップ毎に N100M100.(番号).dataファイルを出力する
 ```
 variable a loop 100 pad
 label loop
@@ -41,7 +41,6 @@ filename="N100M100."+str(frame0)+".data"
 ...
 vp.render_image(size=(1000,1000),filename="figure."+str(frame0)+".png",background=(0,0,0))
 ```
-
 
 
 ## anim.sh の簡単な説明
