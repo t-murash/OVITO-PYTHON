@@ -20,25 +20,27 @@ $ bash anim.sh
 trj.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
 
 ## in.anim の簡単な説明
-100ステップおきにdataファイルを出力する
+1ステップ毎にdataファイルを出力する
 ```
-variable a loop 100
+variable a loop 100 pad
 label loop
-run 100
-write_data trj.$a.data
+run 1
+write_data N100M100.$a.data
 next a
 jump SELF loop
 ```
 
 ## anim.py の簡単な説明
+<<<<<<< HEAD
 unwrap.py の data 入力時と png 出力時に frame 番号を追加しただけ。
+=======
+>>>>>>> 2e10358 (05Anim)
 ```
-frame=1
+frame=100
+frame0=str(frame).zfill(3)
 from ovito.io import import_file
-filename="trj."+str(frame)+".data"
+filename="N100M100."+str(frame0)+".data"
 ...
-frame0=str(frame).zfill(4)
-print(frame0)
 vp.render_image(size=(1000,1000),filename="figure."+str(frame0)+".png",background=(0,0,0))
 ```
 

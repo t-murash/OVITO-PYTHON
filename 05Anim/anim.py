@@ -1,6 +1,7 @@
-frame=1
+frame=19
+frame0=str(frame).zfill(3)
 from ovito.io import import_file
-filename="trj."+str(frame)+".data"
+filename="N100M100."+str(frame0)+".data"
 pipeline=import_file(filename,atom_style="bond")
 
 data=pipeline.compute()
@@ -114,7 +115,5 @@ import math
 from ovito.vis import Viewport
 vp = Viewport(type=Viewport.Type.Perspective, camera_dir=(1,1,-1),camera_pos=(-2*lx,-2*ly,3*lz))
 vp.overlays.append(tripod)
-frame0=str(frame).zfill(4)
-print(frame0)
 vp.render_image(size=(1000,1000),filename="figure."+str(frame0)+".png",background=(0,0,0))
 
