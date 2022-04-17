@@ -17,7 +17,7 @@ $ bash anim.sh
 <img src=https://github.com/t-murash/OVITO-Tips/blob/master/05Anim/movie.gif width=400px>
 
 ## anim.py の簡単な説明
-### trj.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
+trj.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
 
 ## in.anim の簡単な説明
 100ステップおきにdataファイルを出力する
@@ -30,6 +30,8 @@ next a
 jump SELF loop
 ```
 
+## anim.py の簡単な説明
+unwrap.py の data 入力時と png 出力時に frame 番号を追加しただけ。
 ```
 frame=1
 from ovito.io import import_file
