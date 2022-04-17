@@ -16,10 +16,10 @@ $ bash anim.sh
 ## 実行結果
 <img src=https://github.com/t-murash/OVITO-Tips/blob/master/05Anim/movie.gif width=400px>
 
-## の簡単な説明
+## 簡単な説明
 N100M100.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
 
-## in.anim の簡単な説明
+## in.anim の説明
 10ステップ毎に N100M100.(番号).dataファイルを出力する
 ```
 variable a loop 100 pad
@@ -30,7 +30,7 @@ next a
 jump SELF loop
 ```
 
-## anim.py の簡単な説明
+## anim.py の説明
 unwrap.py の data 入力時と png 出力時に frame 番号を追加しただけ。
 ```
 frame=100
@@ -43,8 +43,8 @@ vp.render_image(size=(1000,1000),filename="figure."+str(frame0)+".png",backgroun
 ```
 
 
-## anim.sh の簡単な説明
-anim.py の一行目の数字を書き換えて、`python anim.py` を実行して、連番の figure.*.png を作成。
+## anim.sh の説明
+anim.py の一行目の数字を書き換えて、`python anim.py` を実行、figure.(番号).png を作成。
 ```
 for((i=$INI;i<=$END;i++)); do
     sed -i "1c frame=$i" anim.py
