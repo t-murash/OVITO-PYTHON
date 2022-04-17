@@ -1,5 +1,7 @@
 # OVITO-Tips
-ovito の python モジュール `ovito-python` についてのメモ
+ovito の python モジュール `ovito-python` を使って高分子の gif アニメを作る。
+
+<img src=https://github.com/t-murash/OVITO-Tips/blob/master/05Anim/movie.gif width=400px>
 
 ## ovito 関連のリンク
 
