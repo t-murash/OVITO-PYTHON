@@ -18,7 +18,7 @@ fix 2 all nve
 
 variable a loop 100 pad
 label loop
-run 1
+run 10
 write_data N100M100.$a.data
 next a
 jump SELF loop

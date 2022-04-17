@@ -1,5 +1,6 @@
-frame=19
+frame=100
 frame0=str(frame).zfill(3)
+print(frame0)
 from ovito.io import import_file
 filename="N100M100."+str(frame0)+".data"
 pipeline=import_file(filename,atom_style="bond")
