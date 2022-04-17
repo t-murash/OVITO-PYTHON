@@ -31,10 +31,7 @@ jump SELF loop
 ```
 
 ## anim.py の簡単な説明
-<<<<<<< HEAD
 unwrap.py の data 入力時と png 出力時に frame 番号を追加しただけ。
-=======
->>>>>>> 2e10358 (05Anim)
 ```
 frame=100
 frame0=str(frame).zfill(3)
