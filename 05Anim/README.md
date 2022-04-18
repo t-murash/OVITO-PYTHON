@@ -40,7 +40,7 @@ print(frame0)
 from ovito.io import import_file
 filename="N100M100."+str(frame0)+".data"
 ...
-vp.render_image(size=(1000,1000),filename="figure."+str(frame0)+".png",background=(0,0,0))
+vp.render_image(size=(500,500),filename="figure."+str(frame0)+".png",background=(0,0,0))
 ```
 
 
