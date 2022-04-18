@@ -13,8 +13,8 @@ $ python unwrap.py
 <img src=https://github.com/t-murash/OVITO-Tips/blob/master/04Unwrap/figure.png width=500px>
 
 ## unwrap.py の簡単な説明
-### PBC 番号の修正
-分子中央粒子のPBC番号を引く。
+### PBC index の修正
+各分子の中央に位置する粒子を見つけて、その粒子の PBC index を保存。
 ```
 def modify(frame,data):
     ...        
@@ -50,7 +50,9 @@ def modify(frame,data):
         pbc_mid[i,0]=pbc_sort[int(mol_id_mid[i])-1,0]
         pbc_mid[i,1]=pbc_sort[int(mol_id_mid[i])-1,1]
         pbc_mid[i,2]=pbc_sort[int(mol_id_mid[i])-1,2]
-
+```
+分子中央粒子の PBC index を同一分子の PBC index から引く。
+```
     for i in range(num_particles):
         pid_i=pid[i]
         mol_i=mol[i]

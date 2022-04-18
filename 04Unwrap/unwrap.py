@@ -98,11 +98,11 @@ pipeline.add_to_scene()
 
 from ovito.vis import ParticlesVis
 particle_vis=pipeline.source.data.particles.vis
-particle_vis.radius=0.3
+particle_vis.radius=0.4
 
 from ovito.vis import BondsVis
 bond_vis=pipeline.source.data.particles.bonds.vis
-bond_vis.width=0.2
+bond_vis.width=0.6
 bond_vis.enabled=True
 
 cell_vis=pipeline.source.data.cell.vis
