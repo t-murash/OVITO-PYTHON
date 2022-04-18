@@ -10,7 +10,7 @@ $ python render.py
 ```
 
 ## 実行結果
-<img src=https://github.com/t-murash/OVITO-Tips/blob/master/02Render/figure.png width=400px>
+<img src=https://github.com/t-murash/OVITO-Tips/blob/master/02Render/figure.png width=500px>
 
 ## render.py の簡単な説明
 ### ファイル読み込み
