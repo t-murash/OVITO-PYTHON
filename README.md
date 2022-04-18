@@ -12,9 +12,9 @@ ovito の python モジュール `ovito-python` を使って高分子の gif ア
 
 ## ovito-python の準備
 
-事前に Miniconda3 をいれておく。
+事前に Miniconda をいれておく。
 
-- [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 ```
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 $ bash ./Miniconda3-latest-Linux-x86_64.sh
@@ -27,7 +27,7 @@ $ conda create -n ovito-python
 $ conda activate ovito-python
 ```
 
-**(注意)** ovito を使う際は毎回 `conda activate ovito-python` を実行すること。
+**(注意)** ovito-python を使う際は `conda activate ovito-python` を実行して、ovito-python 環境下にすること。
 
 ovito の pythonモジュールをインストール。
 ```
