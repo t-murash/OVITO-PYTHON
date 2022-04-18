@@ -1,7 +1,7 @@
 # OVITO-Tips
 ovito の python モジュール `ovito-python` を使って下記のような高分子の gif アニメを作る。
 
-<img src=https://github.com/t-murash/OVITO-Tips/blob/master/06Tachy/movie.gif width=500px>
+<img src=https://github.com/t-murash/OVITO-Tips/blob/master/06Tachyon/movie.gif width=500px>
 
 # 内容
 1. [01FileIO](./01FileIO)
@@ -9,7 +9,7 @@ ovito の python モジュール `ovito-python` を使って下記のような�
 3. [03Color](./03Color)
 4. [04Unwrap](./04Unwrap)
 5. [05Anim](./05Anim)
-6. [06Tachy](./06Tachy)
+6. [06Tachyon](./06Tachyon)
 7. [07OSPRay](./07OSPRay)
 
 
