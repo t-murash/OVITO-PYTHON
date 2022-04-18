@@ -18,7 +18,7 @@ $ bash ospray.sh
 <img src=https://github.com/t-murash/OVITO-Tips/blob/master/07OSPRay/figure.001.png width=500px>
 
 ## 簡単な説明
-06Tachy と内容はほぼ同じ。違いは下記。
+06Tachyon と内容はほぼ同じ。違いは下記。
 ```
 from ovito.vis import Viewport
 vp = Viewport(type=Viewport.Type.Perspective, camera_dir=(1,1,-1),camera_pos=(-lx,-ly,2*lz))
