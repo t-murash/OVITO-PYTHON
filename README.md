@@ -1,7 +1,7 @@
 # OVITO-Tips
 ovito の python モジュール `ovito-python` を使って高分子の gif アニメを作る。
 
-<img src=https://github.com/t-murash/OVITO-Tips/blob/master/05Anim/movie.gif width=400px>
+<img src=https://github.com/t-murash/OVITO-Tips/blob/master/06Tachy/movie.gif width=400px>
 
 ## ovito 関連のリンク
 
@@ -36,3 +36,4 @@ $ conda install --strict-channel-priority -c https://conda.ovito.org -c conda-fo
 3. [03Color](./03Color)
 4. [04Unwrap](./04Unwrap)
 5. [05Anim](./05Anim)
+6. [06Tachy](./06Tachy)
