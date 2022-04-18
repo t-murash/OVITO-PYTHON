@@ -1,5 +1,5 @@
 # OVITO-Tips
-ovito の python モジュール（ここでは `ovito-python` と呼ぶ）を使った高分子の gif アニメの作り方を紹介する。
+ovito の python モジュール（ここでは `ovito-python` と呼ぶ）を使った高分子の gif アニメの作り方をまとめる。
 
 <img src=https://github.com/t-murash/OVITO-Tips/blob/master/06Tachyon/movie.gif width=500px>
 
