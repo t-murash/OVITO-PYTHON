@@ -14,7 +14,7 @@ $ bash anim.sh
 **(注意)** lmp (LAMMPS)と convert (Imagemagick) が必要です。
 
 ## 実行結果
-<img src=https://github.com/t-murash/OVITO-Tips/blob/master/05Anim/movie.gif width=400px>
+<img src=https://github.com/t-murash/OVITO-Tips/blob/master/05Anim/movie.gif width=500px>
 
 ## 簡単な説明
 N100M100.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
