@@ -10,7 +10,7 @@ $ python color.py
 ```
 
 ## 実行結果
-<img src=https://github.com/t-murash/OVITO-Tips/blob/master/03Color/figure.png width=400px>
+<img src=https://github.com/t-murash/OVITO-Tips/blob/master/03Color/figure.png width=500px>
 
 ## color.py の簡単な説明
 ### 分子番号の取得

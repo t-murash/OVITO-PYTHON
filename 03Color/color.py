@@ -42,7 +42,7 @@ pipeline.add_to_scene()
 
 from ovito.vis import ParticlesVis
 particle_vis=pipeline.source.data.particles.vis
-particle_vis.radius=0.2
+particle_vis.radius=0.3
 
 from ovito.vis import BondsVis
 bond_vis=pipeline.source.data.particles.bonds.vis
@@ -63,5 +63,5 @@ from ovito.vis import Viewport
 vp = Viewport(type=Viewport.Type.Perspective, camera_dir=(1,2,-1))
 vp.zoom_all()
 vp.overlays.append(tripod)
-vp.render_image(size=(1000,1000),filename="figure.png",background=(0,0,0))
+vp.render_image(size=(500,500),filename="figure.png",background=(0,0,0))
 
