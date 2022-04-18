@@ -20,7 +20,7 @@ $ bash anim.sh
 N100M100.(番号).data を作成後、 ovito で figure.(番号).png を出力する。最後に convert で png をまとめて、gif アニメを作成する。
 
 ## in.anim の説明
-10ステップ毎に N100M100.(番号).dataファイルを出力する
+10ステップ毎に N100M100.(番号).dataファイルを出力するのを100回繰り返す。
 ```
 variable a loop 100 pad
 label loop
@@ -29,6 +29,7 @@ write_data N100M100.$a.data
 next a
 jump SELF loop
 ```
+
 
 ## anim.py の説明
 unwrap.py の data 入力時と png 出力時に frame 番号を追加しただけ。
