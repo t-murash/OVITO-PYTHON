@@ -1,5 +1,5 @@
 # 06Tachy
-連番 png 画像を作ってから gif アニメを作る。05Anim はOpenGL renderer を使っていたが、ここではTachyon rendere を使用する。
+連番 png 画像を作ってから gif アニメを作る。05Anim はOpenGL renderer を使っていたが、ここではTachyon renderer を使用する。
 - in.anim: LAMMPS インプットファイル
 - tachy.py: python script
 - tachy.sh: bash script
