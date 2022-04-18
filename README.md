@@ -34,7 +34,7 @@ ovito の python モジュールをインストール。
 $ conda activate ovito-python
 $ conda install --strict-channel-priority -c https://conda.ovito.org -c conda-forge ovito
 ```
-**(注意)** GUI 版 ovito もインストールされるが、有償のため、試用期限が過ぎると GUI 版 ovito は使えなくなる。細かい調整には GUI 版が便利です。
+**(注意)** GUI 版 ovito もインストールされるが、有償のため、試用期限が過ぎると GUI 版 ovito は使えなくなる。(細かい調整には GUI 版が便利です)
 
 # 内容
 1. [01FileIO](./01FileIO)
