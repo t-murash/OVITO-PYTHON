@@ -59,8 +59,10 @@ gif アニメを作る際に convert コマンドを使います。
 $ sudo apt install imagemagick
 ```
 
-# ovito 関連のリンク
+# リンク
 
 - [ovito の HP](https://www.ovito.org/)
 - [ovito (GUI版) のマニュアル](https://www.ovito.org/docs/current/)
 - [ovito-python のマニュアル](https://www.ovito.org/docs/current/python/)
+- [LAMMPS の HP](https://lammps.org/)
+- [ImageMagick の HP](https://imagemagick.org/)
