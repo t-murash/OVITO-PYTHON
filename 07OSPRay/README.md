@@ -21,7 +21,8 @@ $ bash ospray.sh
 06Tachy と内容はほぼ同じ。違いは下記。
 ```
 from ovito.vis import OSPRayRenderer
-vp.render_image(size=(1000,1000),filename="figure."+str(frame0)+".png",background=(0,0,0),renderer=renderer=OSPRayRenderer())
+vp.render_image(size=(500,500),filename="figure."+str(frame0)+".png",background=(0,0,0),renderer=renderer=OSPRayRenderer(dof_enabled=True,focal_length=80))
 ```
+注目したい場所にピントを合わせて、他はぼかした絵が描ける。focal_lengthでピントを合わせる位置を調節する。
 
 
