@@ -10,7 +10,7 @@ $ python unwrap.py
 ```
 
 ## 実行結果
-<img src=https://github.com/t-murash/OVITO-Tips/blob/master/04Unwrap/figure.png width=400px>
+<img src=https://github.com/t-murash/OVITO-Tips/blob/master/04Unwrap/figure.png width=500px>
 
 ## unwrap.py の簡単な説明
 ### PBC 番号の修正
