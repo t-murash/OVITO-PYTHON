@@ -1,5 +1,5 @@
 # OVITO-Tips
-ovito の python モジュール `ovito-python` を使って高分子の gif アニメを作る。
+ovito の python モジュール `ovito-python` を使って下記のような高分子の gif アニメを作る。
 
 <img src=https://github.com/t-murash/OVITO-Tips/blob/master/06Tachy/movie.gif width=500px>
 
