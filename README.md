@@ -12,7 +12,7 @@ ovito の python モジュール `ovito-python` を使って高分子の gif ア
 
 ## ovito-python の準備
 
-事前に Miniconda をいれておく。
+Miniconda をいれる。
 
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 ```
@@ -27,14 +27,14 @@ $ conda create -n ovito-python
 $ conda activate ovito-python
 ```
 
-**(注意)** ovito-python を使う際は `conda activate ovito-python` を実行して、ovito-python 環境下にすること。
+**(注意)** ovito-python を使う際は `conda activate ovito-python` を実行して、ovito-python 環境にする。
 
-ovito の pythonモジュールをインストール。
+ovito の python モジュールをインストール。
 ```
 $ conda activate ovito-python
 $ conda install --strict-channel-priority -c https://conda.ovito.org -c conda-forge ovito
 ```
-**(注意)** GUI版 ovito もインストールされるが、Pro版のため、試用期限が過ぎるとGUI版 ovito は使えなくなる。
+**(注意)** GUI 版 ovito もインストールされるが、有償のため、試用期限が過ぎると GUI 版 ovito は使えなくなる。細かい調整には GUI 版が便利です。
 
 # 内容
 1. [01FileIO](./01FileIO)
