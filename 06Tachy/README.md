@@ -27,3 +27,4 @@ vp.render_image(size=(500,500),filename="figure."+str(frame0)+".png",background=
 05Anim の時と異なり影が付いている。Tachyon renderer を使うと立体的に見える絵が描ける。
 
 
+
