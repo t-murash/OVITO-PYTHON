@@ -27,11 +27,11 @@ data ファイルを読み込み後の `pipeline.add_to_scene()` が大事。
 ```
 from ovito.vis import ParticlesVis
 particle_vis=pipeline.source.data.particles.vis
-particle_vis.radius=0.3
+particle_vis.radius=0.4
 
 from ovito.vis import BondsVis
 bond_vis=pipeline.source.data.particles.bonds.vis
-bond_vis.width=0.2
+bond_vis.width=0.6
 
 cell_vis=pipeline.source.data.cell.vis
 cell_vis.rendering_color=(1.0,1.0,1.0)
