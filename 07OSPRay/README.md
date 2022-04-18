@@ -20,9 +20,12 @@ $ bash ospray.sh
 ## 簡単な説明
 06Tachy と内容はほぼ同じ。違いは下記。
 ```
+from ovito.vis import Viewport
+vp = Viewport(type=Viewport.Type.Perspective, camera_dir=(1,1,-1),camera_pos=(-lx,-ly,2*lz))
+vp.overlays.append(tripod)
 from ovito.vis import OSPRayRenderer
-vp.render_image(size=(500,500),filename="figure."+str(frame0)+".png",background=(0,0,0),renderer=renderer=OSPRayRenderer(dof_enabled=True,focal_length=80,aperture=5.))
+vp.render_image(size=(500,500),filename="figure."+str(frame0)+".png",background=(0,0,0),renderer=renderer=OSPRayRenderer(dof_enabled=True,focal_length=40,aperture=2.))
 ```
-注目したい場所にピントを合わせて、他はぼかした絵が描ける。focal_lengthでピントを合わせる位置を調節、aperture でぼかしの強さを設定する。
+注目したい場所にピントを合わせて、他はぼかした絵が描ける。focal_lengthでピントを合わせる位置を調節、aperture でぼかしの強さを設定する。ここでは Unit cell の頂点にピントを合わせている。
 
 

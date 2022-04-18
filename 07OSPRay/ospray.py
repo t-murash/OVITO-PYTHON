@@ -114,8 +114,8 @@ lz=data.cell[2,2]
 
 import math
 from ovito.vis import Viewport
-vp = Viewport(type=Viewport.Type.Perspective, camera_dir=(1,1,-1),camera_pos=(-2*lx,-2*ly,3*lz))
+vp = Viewport(type=Viewport.Type.Perspective, camera_dir=(1,1,-1),camera_pos=(-lx,-ly,2*lz))
 vp.overlays.append(tripod)
 from ovito.vis import OSPRayRenderer
-vp.render_image(size=(500,500),filename="figure."+str(frame0)+".png",background=(0,0,0),renderer=OSPRayRenderer(dof_enabled=True,focal_length=80,aperture=5.))
+vp.render_image(size=(500,500),filename="figure."+str(frame0)+".png",background=(0,0,0),renderer=OSPRayRenderer(dof_enabled=True,focal_length=40,aperture=2.))
 
